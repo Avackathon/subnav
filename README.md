@@ -1,27 +1,25 @@
-# Avalanche Summit Hackaton
+# SubNav: The Subnet Navigator
 
-## Subnet Discovery Ui
+The Subnet Navigator (SubNav) is a tool to bring together [Subnet](https://support.avax.network/en/articles/4064861-what-is-a-subnet) builders and Avalanche [Validators](https://support.avax.network/en/articles/4064704-what-is-a-blockchain-validator).
 
-### Features
+**Note:** This project was built over a weekend as part of the [Avalanche Summit Hackathon](https://hackathon.avalanchesummit.com/).
 
-- List available subnets
-- Register an account
-- Claim ownership of a subnet
-- Claim ownership of a node
-- Request to join a subnet
-- Notifications of expiring validator for both subnet and node owners
+## Features
 
-### Subnet properties
+**Anyone** can use SubNav to list Subnets, Blockchains and Validators.
 
-- Name
-- Owner
-- Description
-- Validators
-- (Validation incentives)
-- (How to join as a validator)
+A **Subnet owner** can claim a Subnet as his in SubNav and enrich its listing with informations about it. These metadatas are stored on-chain in a special Subnet running an instance of an [Subnet EVM](https://github.com/ava-labs/subnet-evm).
 
-### Stack
+An **Avalanche validator** can list the existing subnets, see their validating nodes and what blockchains the subnets are running. The metadatas added by the Subnet owner will help any validators to have a better view of what each subnet is for.
 
-- Frontend: React Typescript Tailwind
-- Backend: Permissioned Subnet EVM + Contracts
+## Architecture
+
+## Repositories
+
+The SubNav source code is composed of multiple repositories: 
+
+- [contracts](https://github.com/Avackathon/contracts): Solidity contracts backing the SubNav project.
+- [frontend](https://github.com/Avackathon/frontend): React WebApp of the SubNav project.
+- [infra](https://github.com/Avackathon/infra): Ansible environment used to manage the Fuji validator, Fuji subnet and EVM blockchain backing the SubNav project.
+- [faucet](https://github.com/Avackathon/faucet): Simple FastAPI Python backend to quickly fund wallets with `$SUB` tokens, the native token of the SubNav subnet.
 
