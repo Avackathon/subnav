@@ -12,7 +12,7 @@ SubNav is available on the Fuji network at https://subnav.network.
 
 A **Subnet owner** can claim a Subnet as his in SubNav and enrich its listing with informations about it. These metadatas are stored on-chain in a [smart contract](https://github.com/Avackathon/contracts/blob/master/contracts/SubNav.sol). This smart contract lives in a special Subnet called the **SubNav network** running an instance of an [Subnet EVM](https://github.com/ava-labs/subnet-evm).
 
-An **Avalanche validator** can list the existing subnets, see their validating nodes and what blockchains the subnets are running. The metadatas added by the Subnet owner will help any validators to have a better view of what each subnet is for.
+An **Avalanche validator** can list the existing subnets, see their validating nodes and what blockchains the subnets are hosting. The metadatas added by the Subnet owner will help any validators to have a better view of what each subnet is for, how to join as a validator, if there are incentives, etc.
 
 ## Architecture
 
