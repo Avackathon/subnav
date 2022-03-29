@@ -2,7 +2,7 @@
 
 The Subnet Navigator (SubNav) is a service built on [Avalanche](https://avax.network) that aims at bringing together [subnet](https://support.avax.network/en/articles/4064861-what-is-a-subnet) owners and [validators](https://support.avax.network/en/articles/4064704-what-is-a-blockchain-validator).
 
-SubNav is deployed on the Fuji network and the web UI is available at https://subnav.network.
+SubNav is deployed on the Fuji network and the web UI is available at https://subnav.network. Project demo video: https://youtu.be/sHxPadRSthU.
 
 **Note:** This project was built over a weekend as part of the [Avalanche Summit Hackathon](https://hackathon.avalanchesummit.com/).
 
